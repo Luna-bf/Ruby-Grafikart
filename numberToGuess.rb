@@ -12,3 +12,14 @@ elsif inputNumber < numberToGuess
 else
     puts "Vous avez trouvé le nombre secret, bravo !"
 end
+
+=begin
+
+# Cette syntaxe marche aussi !
+unless inputNumber === numberToGuess
+    puts "Mauvaise réponse, vous avez perdu."
+else
+    puts "Vous avez trouvé le nombre secret, bravo !"
+end
+
+=end
