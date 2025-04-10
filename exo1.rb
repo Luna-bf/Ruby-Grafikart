@@ -1,3 +1,5 @@
+# Les variables
+
 puts("Veuillez entrer votre nom :") # puts va m'afficher la valeur contenue entre parenthèses dans le terminal
 
 #La méthode chomp permet de supprimer les sauts de ligne
