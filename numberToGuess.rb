@@ -6,9 +6,9 @@ inputNumber = gets.chomp.to_i
 numberToGuess = 15
 
 if inputNumber > numberToGuess
-    puts "Vous êtes au dessus du nombre"
+    puts "#{inputNumber} est supérieur au nombre secret"
 elsif inputNumber < numberToGuess
-    puts "Vous êtes en dessous du nombre"
+    puts "#{inputNumber} est inférieur au nombre secret"
 else
-    puts "Vous avez trouvé le nombre, bravo !"
+    puts "Vous avez trouvé le nombre secret, bravo !"
 end
