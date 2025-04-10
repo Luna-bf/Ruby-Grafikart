@@ -2,11 +2,12 @@
 
 puts("Devinez le nombre secret :")
 
+inputNumber = gets.chomp.to_i
 numberToGuess = 15
 
-if userNumber > numberToGuess
+if inputNumber > numberToGuess
     puts "Vous êtes au dessus du nombre"
-elsif userNumber < numberToGuess
+elsif inputNumber < numberToGuess
     puts "Vous êtes en dessous du nombre"
 else
     puts "Vous avez trouvé le nombre, bravo !"
