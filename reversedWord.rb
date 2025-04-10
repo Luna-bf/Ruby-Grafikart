@@ -5,11 +5,11 @@
 
 puts("Devinez le mot inversé secret :")
 
-inputWord = gets.chomp
-secretWord = "nettiK" # "Kitten" en version inversée
-reversedSecretWord = secretWord.reverse! # Je stocke le mot dans une autre variable, j'utilise la méthode .reverse! pour inverser le mot
+input_word = gets.chomp.downcase
+secret_word = "nettik" # "Kitten" en version inversée
+reversed_secret_word = secret_word.reverse! # Je stocke le mot dans une autre variable, j'utilise la méthode .reverse! pour inverser le mot
 
-if inputWord === reversedSecretWord
+if input_word === reversed_secret_word
     puts "Vous avez deviné le mot inversé secret, bravo !"
 else
     puts "Mauvaise réponse, réessayez."

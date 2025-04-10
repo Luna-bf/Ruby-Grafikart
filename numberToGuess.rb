@@ -2,13 +2,13 @@
 
 puts("Devinez le nombre secret :")
 
-inputNumber = gets.chomp.to_i
-numberToGuess = 15
+input_number = gets.chomp.to_i
+number_to_guess = 15
 
-if inputNumber > numberToGuess
-    puts "#{inputNumber} est supérieur au nombre secret"
-elsif inputNumber < numberToGuess
-    puts "#{inputNumber} est inférieur au nombre secret"
+if input_number > number_to_guess
+    puts "#{input_number} est supérieur au nombre secret"
+elsif input_number < number_to_guess
+    puts "#{input_number} est inférieur au nombre secret"
 else
     puts "Vous avez trouvé le nombre secret, bravo !"
 end
@@ -16,7 +16,7 @@ end
 =begin
 
 # Cette syntaxe marche aussi !
-unless inputNumber === numberToGuess
+unless input_number === number_to_guess
     puts "Mauvaise réponse, vous avez perdu."
 else
     puts "Vous avez trouvé le nombre secret, bravo !"
