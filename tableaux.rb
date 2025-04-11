@@ -14,4 +14,19 @@ puts students.length # 3
 puts students + ['Marie']
 
 # Si je veux le mettre dans mon tableau originel, je fais :
-puts students += ['Marie'] # += est le raccourci de : students = students + ['Marie'] .
+puts students += ['Marie'] # += est le raccourci de : students = students + ['Marie']
+
+# Je peux aussi rajouter des éléments avec .push()
+puts students.push('André', 'George', 'Laurent')
+
+# Mais également avec le signe << (inférieur inférieur)
+puts students << 'Francis'
+
+# Je peux imbriquer des tableaux comme ceci :
+puts school = [['John', 'Jane', 'David', 'Marie'], ['André', 'George', 'Laurent', 'Francis']] # Cela peut être utile quand les tableaux deviennent trop grands
+
+# Si je veux par exemple récupérer le 3ème élève de la première classe, soit du premier tableau, je fais :
+puts school[1][2] # Le premier numéro correspond au tableau voulu et le deuxième à l'index de l'élément de ce tableau qu'on veut récupérer. Cela me donnera "Laurent"
+
+
+# -- Les Hashs --
