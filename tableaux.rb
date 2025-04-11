@@ -14,4 +14,4 @@ puts students.length # 3
 puts students + ['Marie']
 
 # Si je veux le mettre dans mon tableau originel, je fais :
-puts students += ['Marie'] # += est le raccourci de : students = students + ['Marie']
+puts students += ['Marie'] # += est le raccourci de : students = students + ['Marie'] .
